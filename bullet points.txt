@@ -1,0 +1,4 @@
+If I am given with more time, 
+•	I could develop UI for Client Management
+•	Create more layers as business layer and data layer to the project
+•	Add more tables to show dependencies

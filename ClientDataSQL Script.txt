@@ -1,0 +1,29 @@
+CREATE TABLE ClientData
+(
+ID int primary key identity,
+FirstName nvarchar(50),
+LastName nvarchar(50),
+EmailID nvarchar(50),
+Address nvarchar(500),
+ContactNumber nvarchar(50),
+Industry nvarchar(100)
+)
+
+
+INSERT INTO ClientData 
+VALUES ('ClientFN1', 'ClientLN1','client1@gmail.com','Address1', '+12345', 'Hospital')
+
+INSERT INTO ClientData 
+VALUES ('ClientFn2', 'ClientLN2','client2@gmail.com','Address2', '+12345', 'IT')
+
+INSERT INTO ClientData 
+VALUES ('ClientFN3', 'ClientLN3','client3@gmail.com','Address3', '+12345', 'Travel')
+
+INSERT INTO ClientData 
+VALUES ('ClientFN4', 'ClientLN4','client4@gmail.com','Address4', '+12345', 'Hospital')
+
+INSERT INTO ClientData 
+VALUES ('ClientFN5', 'ClientLN5','client5@gmail.com','Address5', '+12345', 'Retail')
+
+
+
